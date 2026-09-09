@@ -42,6 +42,7 @@ if (-not $Downloaded) {
     }
 }
 
+
 # 4. Unblock & Execute
 if (Test-Path $ExePath) {
     Unblock-File -Path $ExePath -ErrorAction SilentlyContinue
